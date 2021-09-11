@@ -18,9 +18,9 @@ specifiers:
   eslint-plugin-import: 2.24.2
   eslint-plugin-jest: 24.4.0
   eslint-plugin-node: 11.1.0
-  eslint-plugin-prettier: 3.4.1
+  eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 5.1.0
-  eslint-plugin-unicorn: 35.0.0
+  eslint-plugin-unicorn: 36.0.0
   husky: 7.0.2
   jest: 27.1.0
   prettier: 2.3.2
@@ -54,9 +54,9 @@ devDependencies:
   eslint-plugin-import: 2.24.2_eslint@7.32.0
   eslint-plugin-jest: 24.4.0_d9bb2f3d4d43fbdec1717750590e3665
   eslint-plugin-node: 11.1.0_eslint@7.32.0
-  eslint-plugin-prettier: 3.4.1_5a48a349ffec60f5257b5f148f5199c3
+  eslint-plugin-prettier: 4.0.0_5a48a349ffec60f5257b5f148f5199c3
   eslint-plugin-promise: 5.1.0_eslint@7.32.0
-  eslint-plugin-unicorn: 35.0.0_eslint@7.32.0
+  eslint-plugin-unicorn: 36.0.0_eslint@7.32.0
   husky: 7.0.2
   jest: 27.1.0
   prettier: 2.3.2
@@ -2348,13 +2348,13 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/3.4.1_5a48a349ffec60f5257b5f148f5199c3:
-    resolution: {integrity: sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==}
+  /eslint-plugin-prettier/4.0.0_5a48a349ffec60f5257b5f148f5199c3:
+    resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
-      eslint: '>=5.0.0'
+      eslint: '>=7.28.0'
       eslint-config-prettier: '*'
-      prettier: '>=1.13.0'
+      prettier: '>=2.0.0'
     peerDependenciesMeta:
       eslint-config-prettier:
         optional: true
@@ -2374,11 +2374,11 @@ packages:
       eslint: 7.32.0
     dev: true
 
-  /eslint-plugin-unicorn/35.0.0_eslint@7.32.0:
-    resolution: {integrity: sha512-FHsaO68tDPQILfs/mGF8eSISJp8RswR4FpUuBDnueK2wyEHC6zmsc9WxjYyldXoIsBuVmru6jQyFCbCWPoW/KQ==}
+  /eslint-plugin-unicorn/36.0.0_eslint@7.32.0:
+    resolution: {integrity: sha512-xxN2vSctGWnDW6aLElm/LKIwcrmk6mdiEcW55Uv5krcrVcIFSWMmEgc/hwpemYfZacKZ5npFERGNz4aThsp1AA==}
     engines: {node: '>=12'}
     peerDependencies:
-      eslint: '>=7.28.0'
+      eslint: '>=7.32.0'
     dependencies:
       '@babel/helper-validator-identifier': 7.14.9
       ci-info: 3.2.0
